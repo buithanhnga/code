@@ -1,0 +1,240 @@
+.nav-head {
+	margin-top: 33px;
+}
+.nav-head h1 {
+	font-family: "Cabin-Regular";
+	font-size: 60px;
+	color: #151948;
+	margin-top: 0;
+}
+.nav-head p {
+	margin: 44px 0 20px;
+	color: #6c6c6c
+}
+.nav-head span {
+	color: #6c6c6c;
+}
+.nav-head .sort-button {
+	position: relative;
+}
+.nav-head button {
+	background-color: #151948;
+	border: none;
+	width: 100px;
+	height: 43px;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Cabin-Regular";
+	margin-left: 10px;
+	margin-top: 33px;
+}
+.nav-head .sort {
+	width: 144px;
+	background-color: #151948;
+	opacity: 0.8;
+	padding: 25px 15px;
+	position: absolute;
+	z-index: 2;
+	right: 15px;
+	display: none;
+}
+.nav-head .sort a {
+	display: block;
+	font-family: "Cabin-Regular";
+	color: #fff;
+}
+.sidebar {
+	line-height: 46px;
+}
+.sidebar h4 {
+	color: #151948;
+	font-size: 21px;
+	margin-top: 15px;
+	font-family: "Cabin-Regular";
+}
+.sidebar p {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+.sidebar h6 {
+	color: #151948;
+	font-size: 16px;
+}
+.sidebar h6.small {
+	font-size: 14px;
+}
+.sidebar a {
+	color: #3b3b3b;
+	font-size: 18px;
+}
+.sidebar a.selected {
+	color: #151948;
+	font-size: 29px;
+	margin-top: 16px;
+}
+.sidebar .btns {
+	cursor: pointer;
+}
+.sidebar .btns.active {
+	text-decoration: underline;
+}
+.sidebar .accordion {
+    cursor: pointer;
+    transition: 0.4s;
+}
+.sidebar .accordion:after {
+	content: '\e080';
+    font-size: 18px;
+    float: right;
+    font-family: 'Glyphicons Halflings';
+}
+.sidebar .accordion.active:after {
+	content: "\e114";
+}
+.sidebar .panel {
+	background-color: transparent; 
+	overflow: hidden;
+    max-height: 0;
+    overflow: hidden;
+    box-shadow: none;
+    transition: max-height 0.2s ease-out;
+    margin: 0;
+}
+.sidebar .panel hr {
+	border-top: 1px solid #3b3b3b;
+	margin: 0 0 20px;
+	width: 218px;
+}
+.sidebar .panel hr.short {
+	width: 118px;
+	margin: 15px 0 20px;
+}
+.sidebar .panel tr {
+	height: 35px;
+}
+.sidebar .panel td {
+	width: 45px;
+}
+.sidebar .panel table h6 {
+	cursor: pointer;
+}
+.sidebar .panel table h6.active {
+	text-decoration: underline;
+}
+.sidebar .panel ul h6 {
+	padding: 10px 0;
+}
+.sidebar .panel img {
+	width: 20px;
+	margin: 0 20px 0 1px;
+	border: 3px solid transparent;
+	cursor: pointer;
+}
+.sidebar .panel img.active {
+	border: 2px solid transparent;
+	outline: 1px solid #151948;
+}
+.main-content {
+	margin-bottom: 75px;
+}
+.main-content .img-div {
+	margin-bottom: 35px;
+}
+.filterDiv {
+	display: none;
+}
+.show {
+  display: block;
+}
+.main-content .block {
+	background-color: #fff;
+	font-size: 16px;
+	position: relative;
+}
+.main-content .block.no-hover {
+	border: 1px solid transparent;
+}
+.main-content .block.hover {
+	display: none;
+	border: 1px solid #151948;
+	box-shadow: 1px 1px 5px grey;
+}
+.main-content .img-div img.img {
+	width: 260px;
+}
+.main-content .img-div img.tag {
+	position: absolute;
+	z-index: 2;
+	top: -1px;
+	left: -1px;
+}
+.main-content .img-div .text {
+	padding: 20px;
+}
+.main-content .img-div .text img {
+	width: 20px;
+	margin: 5px 5px 0 0;
+}
+.main-content .img-div .text img:first-child {
+	border: 2px solid transparent;
+	outline: 1px solid #151948;
+	width: 23px;
+}
+.main-content .img-div .text a {
+	display: block;
+	color: #151948;
+	margin: 10px 0 0;
+	font-family: "Cabin-Regular";
+	font-size: 18px;
+}
+.main-content .img-div .text h5 {
+	color: #151948;
+	font-family: "Cabin-Regular";
+	font-size: 18px;
+	margin: 5px 0 0;
+}
+.main-content .img-div .text p {
+	font-size: 18px;
+	margin: 0;
+}
+.main-content .cover {
+	display: none;
+}
+.main-content .cover img {
+	width: 439px;
+	margin-bottom: 35px;
+}
+.main-content .block-grey {
+	width: 100%;
+	height: 505px;
+	background-color: #3b3b3b;
+	padding: 140px 66px 0;
+}
+.main-content .cover h3 {
+	font-size: 29px;
+	font-family: "Cabin-Regular";
+	color: #fff;
+	margin-bottom: 26px;
+}
+.main-content .cover p {
+	color: #666;
+	font-size: 16px;
+	margin-bottom: 32px;
+}
+.main-content .cover a {
+	display: block;
+	color: #fff;
+	font-size: 12.5px;
+	width: 78px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #fff;
+	font-family: "Cabin-Regular";
+	transition: all 0.5s ease;
+}
+.main-content .cover a:hover {
+	text-decoration: none;
+	color: #3b3b3b;
+	background-color: #fff;
+}

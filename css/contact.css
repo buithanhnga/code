@@ -1,0 +1,104 @@
+h2 {
+	font-family: "Cabin-Regular";
+	color: #fff;
+	font-size: 62px;
+}
+h3 {
+	font-family: "Cabin-Regular";
+	font-size: 33px;
+	color: #151948;
+	margin: 0;
+}
+p {
+	font-family: "Cabin-Regular";
+	font-size: 20px;
+	color: #6c6c6c;
+}
+.black {
+	color: #000;
+}
+.contact-form {
+	width: 1366px;
+	margin: 0 auto;
+}
+.cover {
+	background: url(../images/contact.jpg);
+	padding: 480px 0 0 80px;
+	width: 100%;
+	height: 600px;
+}
+.form {
+	width: 1200px;
+	margin: 60px auto;
+	background-color: #d0d0cf;
+	padding: 40px 70px;
+}
+table.mess {
+	margin: 35px 0 10px;
+}
+tr {
+	height: 72px;
+	vertical-align: top;
+}
+td.col1 {
+	width: 230px;
+}
+select {
+	width: 800px;
+	height: 40px;
+	font-family: "Cabin-Regular";
+	color: #000;
+	font-size: 20px;
+	padding-left: 20px;
+}
+textarea {
+	width: 800px;
+	height: 200px;
+}
+.right {
+	text-align: right;
+	padding-right: 30px;
+}
+hr {
+	width: 1030px;
+	margin: 50px 0 36px;
+	border-top: 2px solid #6c6c6c;
+}
+table.info tr.sex {
+	height: 52px;
+}
+table.info td.sex p {
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: -10px;
+}
+input[type=text] {
+	height: 40px;
+} 
+input[type=text].long {
+	width: 800px;
+}
+input[type=text].medium {
+	width: 600px;
+}
+input[type=text].short {
+	width: 190px;
+}
+.marleft {
+	margin-left: 10px;
+}
+button {
+	width: 800px;
+	height: 40px;
+	background-color: #151948;
+	color: #fff;
+	font-size: 20px;
+	font-family: "Cabin-Regular";
+	border: 1px solid transparent;
+	transition: all 0.5s ease;
+}
+button:hover {
+	background-color: transparent;
+	border: 1px solid #151948;
+	color: #151948;
+}

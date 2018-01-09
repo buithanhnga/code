@@ -1,0 +1,152 @@
+a.button {
+	display: inline-block;
+	color: #fff;
+	background-color: transparent;
+	border: 1px #fff solid;
+	border-radius: 5px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-family: "Cabin-Regular";
+	transition: all 0.5s ease;
+}
+a.button:hover {
+	color: #151948;
+	background-color: #fff;
+	text-decoration: none;
+}
+.top-head {
+	/*background: url(../images/top-banner.jpg) no-repeat center center;*/
+	/*background-size: cover;*/
+	height: 100%;
+	position: relative;
+}
+.top-head .content {
+	width: 600px;
+	padding: 50px;
+	position: absolute;
+	background-color: #0000007d;
+	top: 450px;
+	left: 100px;
+	z-index: 4;
+}
+.top-head a {
+	color: #fff;
+	display: block;
+	margin-bottom: 12px;
+}
+.top-head a.title {
+	font-family: "Cabin-Regular";
+	font-size: 25px;
+	color: #fff;
+}
+.sale {
+	margin-top: 100px;
+}
+.sale h2 {
+	font-family: "Cabin-Regular";
+	font-size: 50px;
+	color: #151948;
+	margin-bottom: 40px;
+}
+.sale .carousel-inner {
+	width: 1000px;
+	height: 626px;
+	margin: 0 auto;
+}
+.sale .carousel-content .col1 {
+	width: 500px;
+	float: left;
+}
+.sale .carousel-content .col2 {
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+}
+.sale .carousel-content .col3 {
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+}
+.sale .carousel-content .big-image {
+	background-color: #fff;
+	width: 100%;
+	height: 165px;
+	padding: 20px 30px 0 45px;
+}
+
+.sale .carousel-content a {
+	color: #3b3b3b;
+	display: block;
+	margin-top: 3px;
+} 
+.sale .carousel-content a.title {
+	color: #151948;
+	display: block;
+	font-family: "Cabin-Regular";
+	font-size: 25px;
+}
+.sale .carousel-content a.small-title {
+	margin: 7px 0 23px;
+}
+.carousel-control {
+	color: #151948;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+}
+.carousel-indicators li {;
+	background-color: #6c6c6c;
+}
+.carousel-indicators li.active {
+	background-color: #151948;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.sale .shop {
+	text-align: center;
+}
+.sale a.button {
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	color: #151948;
+	background-color: transparent;
+	border: 1px solid #151948;
+	font-size: 20px;
+	margin: 70px auto 100px;
+	transition: all 0.5s ease;
+}
+.sale a.button:hover {
+	color: #fff;
+	background-color: #151948;
+}
+.collection {
+	height: 600px;
+	width: 1366px;
+	margin: 0 auto;
+}
+.collection .season {
+	width: 50%;
+	height: 600px;
+	float: left;
+	text-align: center;
+	background: url(../images/seasonal.jpg) no-repeat center center;
+}
+.collection .collect {
+	width: 50%;
+	height: 600px;
+	float: left;
+	text-align: center;
+	background: url(../images/collection.jpg) no-repeat center center;
+}
+.collection h4 {
+	padding-top: 415px;
+	font-family: "Cabin-Regular";
+	font-size: 29px;
+	color: #fff;
+	margin: 0 auto 35px;
+}

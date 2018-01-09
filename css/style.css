@@ -1,0 +1,338 @@
+@font-face {
+    font-family: "Cabin-Regular";
+    src: url(../fonts/Cabin-Regular.ttf);
+}
+@font-face {
+    font-family: "Cabin-Bold";
+    src: url(../fonts/Cabin-Bold.ttf);
+}
+@font-face {
+    font-family: "OldStandard-Regular";
+    src: url(../fonts/OldStandard-Regular.ttf);
+}
+@font-face {
+    font-family: "OldStandard-Italic";
+    src: url(../fonts/OldStandard-Italic.ttf);
+}
+body {
+	background-color: #efecee;
+	color: #3b3b3b;
+	font-family: "OldStandard-Regular";
+	font-size: 16px;
+}
+.header {
+	background-color: #151948;
+	width: 100%;
+	height: 60px;
+}
+.header img {
+	padding-top: 12px;
+}
+.header img.logo {
+	padding-top: 16px;
+	width: 150px;
+}
+.header .left-menu {
+	padding: 18px 0 0 20px;
+}
+.header .left-menu li {
+	padding: 0;
+	margin-right: 15px;
+
+}
+.header .left-menu li > a, .header .left-menu li > p {
+	text-transform: uppercase;
+	color: #e2eaf2;
+	font-family: "Cabin-Regular";
+	font-size: 16px;
+	padding-right: 20px;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+.header .left-menu  li > p:hover {
+	text-decoration: underline;
+}
+.header .submenu {
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: -302px;
+	width: 100vw;
+	height: 260px;
+	background-color: #fff;
+	opacity: 0.9;
+	z-index: 10;
+}
+.header .submenu tr {
+	height: 36px;
+}
+.header .submenu td {
+	width: 200px;
+}
+.header .submenu a {
+	color: #151948;
+	font-family: "Cabin-Regular";
+	font-size: 18px;
+}
+.header .submenu1 {
+	padding: 40px 467px 0;
+}
+.header .submenu2 {
+    padding: 40px 0 0 582px;
+}
+.header .submenu3 {
+    padding: 68px 0 0 720px;
+}
+.header .right-menu {
+	padding-top: 5px;
+}
+.header .search {
+	cursor: pointer;
+	padding: 0;
+}
+.header .search-menu {
+	position: absolute;
+	background-color: #fff;
+	opacity: 0.9;
+	top: 60px;
+	left: -198px;
+	z-index: 11;
+	padding: 20px 40px;
+	display: none;
+}
+.header .search-menu input {
+	width: 250px;
+	height: 36px;
+}
+.header .search-menu input:focus {
+	outline: none;
+	border: 1px solid #151948;
+}
+.header .search-menu button {
+	position: absolute;
+	z-index: 4;
+	padding: 0px;
+	top: 25px;
+	left: 262px;
+	background-color: transparent;
+	border: none;
+}
+.header .search-menu button:focus {
+	outline: none;
+}
+.header .search-menu button img {
+	width: 20px;
+	padding-top: 0;
+}
+.newsletter {
+	width: 1170px;
+	height: 296px;
+	margin: 85px auto;
+	background-color: #fff;
+	text-align: center;
+}
+.newsletter h2 {
+	padding-top: 68px;
+	margin-bottom: 20px;
+	font-family: "Cabin-Regular";
+	color: #151948;
+	font-size: 40px;
+}
+.newsletter input {
+	width: 540px;
+	text-align: center;
+	font-family: "OldStandard-Italic";
+	font-size: 25px;
+	border-bottom: 1.5px solid #151948;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+.newsletter input:focus {
+	outline: none;
+}
+.newsletter button {
+	margin-top: 25px;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 12.5px;
+	text-align: center;
+	background-color: #151948;
+	border: none;
+	color: #fff;
+	font-family: "Cabin-Regular";
+	transition: all 0.5s ease;
+}
+.newsletter button:hover {
+	background-color: transparent;
+	border: 1px solid #151948;
+	color: #151948;
+}
+.contact {
+	background-color: #fff;
+	width: 1366px;
+	height: 150px;
+	margin: 0 auto;
+}
+.contact .wrap {
+	width: 970;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.contact .col1 {
+	width: 152px;
+	margin-left: 190px;
+	float: left;
+}
+.contact .col2 {
+	width: 375px;
+	float: left;
+}
+.contact .col3 {
+	width: 200px;
+	float: left;
+}
+.contact .col4 {
+	float: left;
+}
+.contact h5 {
+	font-size: 20px;
+	color: #151948;
+	font-family: "Cabin-Regular";
+}
+.contact p {
+	font-size: 20px;
+	color: #6c6c6c;
+	font-family: "Cabin-Regular";
+	margin: 5px 0;
+}
+.footer {
+	background-color: #151948;
+	height: 300px;
+}
+.footer .social {
+	padding: 50px 0 25px;
+}
+.footer .social a {
+	margin: 0 15px;
+}
+.footer .links a {
+	text-transform: uppercase;
+	color: #e2eaf2;
+	font-family: "Cabin-Regular";
+	font-size: 16px;
+	margin: 0 12px;
+}
+#scrolltop {
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+	display: none;
+	border-radius: 50%;
+	box-shadow: 2px 2px 1px #3b3b3b;
+}
+#scrolltop img {
+	width: 50px;
+}
+
+/*Login & Signup Css*/
+.login h2, .signup h2 {
+	font-family: "Cabin-Regular";
+	color: #151948;
+	font-size: 42px;
+}
+.login h3, .signup h3 {
+	font-family: "Cabin-Regular";
+	color: #151948;
+	font-size: 25px;
+	margin-top: 0;
+}
+.login .small, .signup .small {
+	font-size: 15px;
+	color: #3b3b3b;
+}
+.login a.button, .signup a.button {  
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #151948;
+	color: #fff;
+	font-family: "Cabin-Regular";
+	font-size: 18px;
+	transition: all 0.5s ease;
+}
+.login a.button:hover, .signup a.button:hover {
+	text-decoration: none;
+	border: 1px solid #151948;
+	color: #151948;
+	background-color: transparent;
+}
+.login {
+	margin: 40px 0 100px;
+}
+.login p {
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.login a.small {
+	text-decoration: underline;
+}
+.login .login-block {
+	width: 100%;
+	height: 300px;
+	background-color: #cfcfcf;
+	padding: 20px;
+	position: relative;
+}
+.login table {
+	margin-top: 20px;
+}
+.login tr {
+	height: 50px;
+}
+.login td.col1 {
+	width: 190px;
+}
+.login input[type=text] {
+	width: 230px;
+	height: 40px;
+	padding-left: 10px;
+}
+.signup {
+	margin-bottom: 40px;
+}
+.signup p {
+	font-family: "Cabin-Regular";
+	font-size: 18px;
+	margin: 20px 0 5px;
+}
+.signup a {
+	color: #3b3b3b;
+}
+.signup .title {
+	margin: 40px auto 0;
+	width: 280px;
+}
+.signup .signup-block {
+	margin: 10px auto 0;
+	background-color: #cfcfcf;
+	width: 700px;
+	padding: 10px 145px 87px;
+	position: relative;
+}
+.signup .info {
+	padding: 0 64px;
+}
+.signup input[type=text] {
+	width: 300px;
+	height: 40px;
+}
+.signup .last {
+	margin-top: 30px;
+	padding-left: 45px;
+}
